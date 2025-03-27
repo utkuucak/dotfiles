@@ -1,4 +1,4 @@
--- always copy to system clipboard
+      -- always copy to system clipboard
 vim.api.nvim_set_option("clipboard", "unnamed")
 
 -- tab and spaces stuff
@@ -17,3 +17,7 @@ vim.keymap.set('n', 'c-l>', ':wincmd l<CR>')
 -- line numbering
 vim.cmd("set number")
 vim.cmd("set relativenumber")
+
+-- case sensitivity in searches
+vim.opt.ignorecase = true   -- Enable case-insensitive searching
+vim.opt.smartcase = true    -- case-sensitive if search contains capital letters

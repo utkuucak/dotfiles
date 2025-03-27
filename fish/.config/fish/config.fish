@@ -7,5 +7,3 @@ if status is-interactive
   # Ctrl + p for previous command
   bind -M insert \cn "commandline -f history-search-forward"  
 end
-
-
