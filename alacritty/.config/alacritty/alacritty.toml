@@ -2,19 +2,19 @@
 size = 11
 
 [font.bold]
-family = "JetBrainsMonoNerdFont"
+family = "JetBrainsMono NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMonoNerdFont"
+family = "JetBrainsMono NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMonoNerdFont"
+family = "JetBrainsMono NF"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMonoNerdFont"
+family = "JetBrainsMono NF"
 style = "Regular"
 
 [terminal.shell]
